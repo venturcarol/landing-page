@@ -1,0 +1,104 @@
+body {
+	font-family: "sohne-var","Helvetica Neue","Arial",sans-serif;
+}
+
+.navbar {
+	background-image: linear-gradient(to right, #1d2956, #111832);
+}
+
+.nav-link {
+	color: white;
+	text-align: center;
+	margin: 15px;
+}
+
+.nav-link:hover {
+	color: #475386;
+}
+
+.navbar-toggler {
+	border-color: rgba(255,255,255,0.5);
+	color: rgba(255,255,255,.5);
+}
+
+#caixa-1 {
+	background-image: linear-gradient(to right, #1d2956, #111832);
+	color: white;
+}
+
+.texto-inicio {
+	font-weight: bold;
+	line-height: 42px;
+	font-size: 50px;
+}
+
+.btn-custom {
+	border: 2px solid #f0a225;
+	background-color: #1d2956;
+	border-radius: 50px;
+	width: 150px;
+	height: 40px;
+	outline: none;
+	padding: 4px;
+	color: white;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+
+.btn-custom:hover {
+	background-color: #2a3c7b;
+	color: white;
+}
+
+.text-2 {
+	padding-top: 100px;
+}
+
+#caixa-3 {
+	padding-top: 25px;
+	background-image: linear-gradient(to right, #1d2956, #111832);
+	color: white;
+}
+
+.conteudo-solucoes {
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+.text-caixa3 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 40px;
+}
+
+#caixa-4 { 
+	padding-top: 40px;
+	color: white;
+}
+
+.text-4 {
+	text-align: center;
+}
+
+#caixa-5 {
+	padding-top: 50px;
+}
+
+footer {
+	background-image: linear-gradient(to right, #1d2956, #111832);
+	padding: 30px 0 20px 0;
+	color: white;
+}
+
+i {
+	color: white;
+}
+
+i:hover {
+	color: lightgrey;
+}
+
+.contato-footer {
+	list-style: none;
+	margin-left: -30px;
+}
