@@ -1,19 +1,34 @@
-body {
-	font-family: "sohne-var","Helvetica Neue","Arial",sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+	font-family: "Roboto", sans-serif;
 }
 
-.navbar {
+html, body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+nav {
 	background-image: linear-gradient(to right, #1d2956, #111832);
 }
 
-.nav-link {
-	color: white;
-	text-align: center;
-	margin: 15px;
+.brand {
+	font-size: 24px;
+	color: #f0a225;
+	cursor: pointer;
 }
 
-.nav-link:hover {
-	color: #475386;
+nav ul li a {
+	color: white;
+	margin: 13px;
+}
+
+nav ul li a:hover {
+	color: #f0a225;
 }
 
 .navbar-toggler {
@@ -21,12 +36,12 @@ body {
 	color: rgba(255,255,255,.5);
 }
 
-#caixa-1 {
+#home {
 	background-image: linear-gradient(to right, #1d2956, #111832);
 	color: white;
 }
 
-.texto-inicio {
+.header-home {
 	font-weight: bold;
 	line-height: 42px;
 	font-size: 50px;
@@ -34,7 +49,7 @@ body {
 
 .btn-custom {
 	border: 2px solid #f0a225;
-	background-color: #1d2956;
+	background: transparent;
 	border-radius: 50px;
 	width: 150px;
 	height: 40px;
@@ -46,42 +61,35 @@ body {
 }
 
 .btn-custom:hover {
-	background-color: #2a3c7b;
+	background-color: #f0a225;
+	transition: 0,6s ease;
 	color: white;
 }
 
-.text-2 {
+.text-sobre {
 	padding-top: 100px;
 }
 
-#caixa-3 {
-	padding-top: 25px;
+#solucoes {
 	background-image: linear-gradient(to right, #1d2956, #111832);
+	padding-top: 25px;
 	color: white;
 }
 
-.conteudo-solucoes {
-	padding-top: 15px;
-	padding-bottom: 20px;
-}
-
-.text-caixa3 {
+.header-solucoes {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 40px;
 }
 
-#caixa-4 { 
+.card-body img {
+	width: 150px;
+	height: 150px;
+}
+
+#contato { 
 	padding-top: 40px;
 	color: white;
-}
-
-.text-4 {
-	text-align: center;
-}
-
-#caixa-5 {
-	padding-top: 50px;
 }
 
 footer {
@@ -90,15 +98,60 @@ footer {
 	color: white;
 }
 
-i {
-	color: white;
-}
-
-i:hover {
-	color: lightgrey;
-}
-
-.contato-footer {
+footer .contato-footer {
 	list-style: none;
 	margin-left: -30px;
 }
+
+footer i {
+	color: white;
+}
+
+footer i:hover {
+	color: lightgrey;
+}
+
+@media (max-width: 575.98px) {
+	#home {
+		padding: 70px 0px 70px 0px;
+	}
+
+	.header-home {
+		font-size: 48px;
+	}
+
+	#home p{
+		font-size: 17px;
+	}
+
+	.text-sobre {
+		padding: 10px 0px 10px 0px;
+	}
+
+	#solucoes {
+		padding-bottom: 60px;
+	}
+
+	footer h4{
+		padding-top: 20px;
+	}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	#home {
+		padding: 70px 0px 70px 0px;
+	}
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+ }
+
+
+@media (min-width: 1200px) { 
+ }
